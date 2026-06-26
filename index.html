@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="icon">📐</span> Dashboard
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">👤 Profile</a></li>
+                <li><a href="#">💬 Messages</a></li>
+                <li><a href="#">📜 History</a></li>
+                <li><a href="#">🛠️ Tasks</a></li>
+                <li><a href="#">👥 Communities</a></li>
+            </ul>
+            <ul class="nav-links settings">
+                <li><a href="#">⚙️ Settings</a></li>
+                <li><a href="#">🛡️ Support</a></li>
+                <li><a href="#">🔒 Privacy</a></li>
+            </ul>
+        </aside>
+
+        <header class="header">
+            <div class="header-top">
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="user-notif">
+                    <span class="notif-icon">🔔</span>
+                    <div class="avatar small">👤</div>
+                    <span class="user-name-top">Morgan Oakley</span>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="greeting-section">
+                    <div class="avatar big">👤</div>
+                    <div class="greeting-text">
+                        <p class="subtext">Hi there,</p>
+                        <h2 class="main-username">Morgan Oakley (@morgan)</h2>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="projects-section">
+                <h3>Your Projects</h3>
+                <div class="projects-grid">
+                    <div class="card">
+                        <h4>Super Cool Project</h4>
+                        <p>Sed tempus ut sem ut sed id et. Ipsum aliquam erat sodales erat. Maecenas iaculis id sollicitudin aliquet accumsan.</p>
+                        <div class="card-icons">
+                            <span>⭐</span><span>👁️</span><span>🔗</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Less Cool Project</h4>
+                        <p>Aenean elementum id elementum eros ut. Ipsum aliquam erat sodales erat. Maecenas iaculis id sollicitudin.</p>
+                        <div class="card-icons">
+                            <span>⭐</span><span>👁️</span><span>🔗</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Impossible App</h4>
+                        <p>Placerat vestibulum lectus mauris ultrices eros in cursus. Keberhasilan project ini tergantung niat kamu belajar.</p>
+                        <div class="card-icons">
+                            <span>⭐</span><span>👁️</span><span>🔗</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bagian Widget Kanan -->
+            <aside class="right-widgets">
+                <div class="announcements-wrapper">
+                    <h3>Announcements</h3>
+                    <div class="widget-card">
+                        <div class="announcement-item">
+                            <h5>Site Maintenance</h5>
+                            <p>Vestibulum condimentum aliquet cubilia cubilia...</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="announcement-item">
+                            <h5>Community Share Day</h5>
+                            <p>Nam consectetur id et elementum eros ut...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trending-wrapper">
+                    <h3>Trending</h3>
+                    <div class="widget-card">
+                        <div class="trending-item">
+                            <div class="avatar small">👤</div>
+                            <div>
+                                <p class="handle">@tegan</p>
+                                <p class="project-name">World Peace Builder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
